@@ -1,0 +1,23 @@
+// cria nosso tema 
+$my-color01: #0090c1;
+$my-color02: #1f487e;
+$my-color03: #cd0c74;
+$my-color04: #ed254e; 
+$my-color05: #efc82d;
+$my-color06: #1d3461;
+
+$theme-colors:(
+	"my-color01": $my-color01,
+	"my-color02": $my-color02,
+	"my-color03": $my-color03,
+	"my-color04": $my-color04,
+	"my-color05": $my-color05,
+	"my-color06": $my-color06
+);
+
+// classes personalizadas
+$link-color: $my-color03;
+
+
+// importa bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
